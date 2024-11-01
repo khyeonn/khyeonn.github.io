@@ -30,6 +30,7 @@
       "startDate": "2023-08-29",
       "endDate": "2024-12-23",
       "courses": [
+        "GPA 3.77/4.0",
         "Advanced Systems Control", 
         "Applied Machine Learning", 
         "Decision Making Under Uncertainty", 
@@ -42,24 +43,28 @@
       "studyType": "B.S. in Mechanical Engineering",
       "startDate": "2019-08-29",
       "endDate": "2023-05-23",
-      "courses": []
+      "courses": [
+        "GPA 3.70/4.0",
+        "Dean's list all semesters",
+        "Clark Legacy scholarship recipient"
+      ]
     }
   ],
   "skills": [
     {
       "name": "Engineering",
-      "icon": "fa-solid fa-hashtag",
+      "icon": "fa-solid fa-screwdriver-wrench",
       "keywords": [
         "Algorithms",
         "Computer vision",
         "Microcontrollers",
         "Systems modeling and analysis",
-        "Lab skills including power tools"
+        "Lab skills including soldering, power tools"
       ]
     },
     {
       "name": "Software",
-      "icon": "fa-solid fa-hashtag",
+      "icon": "fa-solid fa-laptop",
       "keywords": [
         "C/C++",
         "CAD including Fusion 360, SolidWorks",
@@ -75,59 +80,21 @@
       "publisher": "npj Digital Medicine",
       "releaseDate": "2024-10-25",
       "url": "https://doi.org/10.1038/s41746-024-01303-5",
-      "summary": ""
+      "summary": "We investigated the potential of the transmission line model as a digital twin of aneurysmal aorta by comparatively analyzing how a uniform lossless tube-load model were fitted to the carotid and femoral artery tonometry waveforms from abdominal aortic aneurysm patients vs. their matched controls."
     },
     {
       "name": "Tube-Load Model as a Digital Twin for Abdominal Aortic Aneurysm Patients (poster)",
       "publisher": "IEEE International Engineering in Medicine and Biology Society Conference",
       "releaseDate": "2024-07-18",
-      "url": "https://embc.embs.org/2024/",
-      "summary": ""
+      "url": "https://github.com/khyeonn/khyeonn.github.io/blob/main/assets/pdf/AAA-DK-EMBC2024.pdf",
+      "summary": "To investigate the feasibility of tube-load models as a digital twin to detect and monitor abdominal aortic aneurysms, helping to improve accessibility to screening and surveillance."
     },
     {
       "name": "Tube-Load Modeling of Aorta with Abdominal Aortic Aneurysm (poster)",
       "publisher": "IEEE International Conference on Biomedical and Health Informatics",
       "releaseDate": "2023-10-17",
-      "url": "https://bhi.embs.org/2023/",
-      "summary": ""
-    }
-  ],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "url": "https://github.com/khyeonn/khyeonn.github.io/blob/main/assets/pdf/AAA-DK-BHI2023.pdf",
+      "summary": "To investigate the feasibility of tube-load models in tracking the progression of abdominal aortic aneurysm in a patient pre- and post-endovascular repair surgery."
     }
   ],
   "projects": [

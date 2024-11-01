@@ -1,0 +1,21 @@
+@mixin indent($size: 20px) {
+    padding-left: $size;
+  }
+  
+  .indent {
+    @include indent; 
+  }
+  
+  .indent-sm {
+    @include indent(10px);
+  }
+  
+  .indent-lg {
+    @include indent(40px);
+  }
+
+  .line-space {
+    display: inline-block;
+    margin-top: 10px; 
+
+  }
