@@ -40,6 +40,12 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
+    <div class="button-container">
+      <a href="{{ '/projects/' | relative_url }}" class="button">Check out my projects!</a>
+    </div>
+  </article>
+
+  <article>
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
       <h2>

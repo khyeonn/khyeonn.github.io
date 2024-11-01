@@ -15,10 +15,12 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hey there! I'm Max Kim. I'm an aspiring mechanical engineer with a passion for innovation and problem-solving.
-I graduated with a B.S. in Mechanical Engineering from the University of Maryland in 2023, and I'm currently wrapping up
-my Master's degree from the same school, which I expect to receive in 2024.
+Hey there! I'm Max. I'm an aspiring mechanical engineer experienced in control systems, mechatronics, and machine learning.
 
-I love getting my hands dirty and bringing ideas into reality. My primary interests are in control systems, robotics, and machine learning. 
+I earned my B.S in Mechanical Engineering from the University of Maryland in 2023, and will be receiving my M.S. from the same school in 2024.
+During my studies, I've worked on various projects that integrate mechanical, electrical, and software systems to tackle today's engineering challenges. 
+
+I love applying what I learned to solve complex problems, create innovative solutions, and bring ideas to life.
+
 
 
