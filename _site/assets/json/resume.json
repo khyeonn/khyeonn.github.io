@@ -1,0 +1,132 @@
+{
+  "basics": {
+    "name": "Max Kim",
+    "image": "",
+    "email": "mkhyeon7@gmail.com",
+    "url": "https://www.linkedin.com/in/khyeon/"
+  },
+  "work": [
+    {
+      "name": "Laboratory for Control and Information Systems",
+      "position": "Research Assistant",
+      "location": "College Park, MD",
+      "url": "https://enme.umd.edu/research/laboratory-control-and-information-systems",
+      "startDate": "2022-04",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        "Conduct signal processing such as preprocessing, filter design, time- and frequency-domain analysis, and feature extraction on 5 different physiological signals measured from 600+ subects.", 
+        "Design and implement algorithms for signal preprocessing, system identification (including multi-blind system identification), optimization, and data analysis on physiological signals with extensive parameter tuning in MATLAB/Python.", 
+        "Collaborate with a team of four to develop a novel method for detecting and monitoring aneurysms by analyzing non-invasive physiological signals.",
+        "Create and present weekly summaries of research progress, leading discussions on findings and their implications to drive productive, goal-oriented discussions and strategic planning."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Maryland - College Park",
+      "location": "College Park, MD",
+      "studyType": "M.S. in Mechanical Engineering",
+      "startDate": "2023-08-29",
+      "endDate": "",
+      "courses": [
+        "GPA 3.77/4.0",
+        "Advanced Systems Control", 
+        "Applied Machine Learning", 
+        "Decision Making Under Uncertainty", 
+        "Optimal Estimation of Dynamic Systems"
+      ]
+    },
+    {
+      "institution": "University of Maryland - College Park",
+      "location": "College Park, MD",
+      "studyType": "B.S. in Mechanical Engineering",
+      "startDate": "2019-08-29",
+      "endDate": "2023-05-23",
+      "courses": [
+        "GPA 3.70/4.0",
+        "Dean's list all semesters",
+        "Clark Legacy scholarship recipient"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Engineering",
+      "icon": "fa-solid fa-screwdriver-wrench",
+      "keywords": [
+        "Algorithms",
+        "Computer vision",
+        "Microcontrollers",
+        "Systems modeling and analysis",
+        "Lab skills including soldering, power tools"
+      ]
+    },
+    {
+      "name": "Software",
+      "icon": "fa-solid fa-laptop",
+      "keywords": [
+        "C/C++",
+        "CAD including Fusion 360, SolidWorks",
+        "FEA",
+        "MATLAB and Simulink",
+        "Python"
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "name": "Transmission Line Model as a Digital Twin for Abdominal Aortic Aneurysm Patients",
+      "publisher": "npj Digital Medicine",
+      "releaseDate": "2024-10-25",
+      "url": "https://doi.org/10.1038/s41746-024-01303-5",
+      "summary": "We investigated the potential of the transmission line model as a digital twin of aneurysmal aorta by comparatively analyzing how a uniform lossless tube-load model were fitted to the carotid and femoral artery tonometry waveforms from abdominal aortic aneurysm patients vs. their matched controls."
+    },
+    {
+      "name": "Tube-Load Model as a Digital Twin for Abdominal Aortic Aneurysm Patients (poster)",
+      "publisher": "IEEE International Engineering in Medicine and Biology Society Conference",
+      "releaseDate": "2024-07-18",
+      "url": "https://github.com/khyeonn/khyeonn.github.io/blob/main/assets/pdf/AAA-DK-EMBC2024.pdf",
+      "summary": "To investigate the feasibility of tube-load models as a digital twin to detect and monitor abdominal aortic aneurysms, helping to improve accessibility to screening and surveillance."
+    },
+    {
+      "name": "Tube-Load Modeling of Aorta with Abdominal Aortic Aneurysm (poster)",
+      "publisher": "IEEE International Conference on Biomedical and Health Informatics",
+      "releaseDate": "2023-10-17",
+      "url": "https://github.com/khyeonn/khyeonn.github.io/blob/main/assets/pdf/AAA-DK-BHI2023.pdf",
+      "summary": "To investigate the feasibility of tube-load models in tracking the progression of abdominal aortic aneurysm in a patient pre- and post-endovascular repair surgery."
+    }
+  ],
+  "projects": [
+    {
+      "name": "UAV Navigation Using Reinforcement Learning",
+      "highlights": [
+        "Built a custom drone simulation environment with stochastic linear dynamics in continuous state and action space featuring 10 randomized obstacles.", 
+        "Designed a navigation algorithm that could outperform a heuristic-based control algorithm in unseen environments by 27% in terms of time-steps taken."
+      ],
+      "startDate": "2024-03",
+      "endDate": "2024-05"
+    },
+    {
+      "name": "Robust PID Control of Automatic Blood Pressure Cuff",
+      "highlights": [
+        "Performed system identification on known pressure cuff and PWM solenoid valve models to approximate a transfer function of the system.", 
+        "Designed a PID controller following ITAE and IMC principles to achieve 0 steady-state error.",
+        "Validated robustness by simulating system response to changes in physical constraints."
+      ],
+      "startDate": "2023-11",
+      "endDate": "2023-12"
+    },
+    {
+      "name": "Assistive Utensil for Essential Tremor Patients",
+      "highlights": [
+        "Spearheaded the development of an assistive spoon for patients with essential tremors that could reduce tremors by up to 50%.", 
+        "Engineered an affordable solution priced at $40, ensuring accessibility for a wide range of patients.",
+        "Created comprehensive test beds and protocols to facilitate weekly testing during prototyping.",
+        "Served as technical expert, developing all mathematical models for the project, and acted as a key reference resource for team members by providing technical guidance and support."
+      ],
+      "startDate": "2023-01",
+      "endDate": "2023-05"
+    }
+  ]
+}
