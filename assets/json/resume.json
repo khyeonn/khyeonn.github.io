@@ -99,12 +99,34 @@
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "UAV Navigation Using Reinforcement Learning",
+      "highlights": [
+        "Built a custom drone simulation environment with stochastic linear dynamics in continuous state and action space featuring 10 randomized obstacles.", 
+        "Designed a navigation algorithm that could outperform a heuristic-based control algorithm in unseen environments by 27% in terms of time-steps taken."
+      ],
+      "startDate": "2024-03",
+      "endDate": "2024-05"
+    },
+    {
+      "name": "Robust PID Control of Automatic Blood Pressure Cuff",
+      "highlights": [
+        "Performed system identification on known pressure cuff and PWM solenoid valve models to approximate a transfer function of the system.", 
+        "Designed a PID controller following ITAE and IMC principles to achieve 0 steady-state error.",
+        "Validated robustness by simulating system response to changes in physical constraints."
+      ],
+      "startDate": "2023-11",
+      "endDate": "2023-12"
+    },
+    {
+      "name": "Assistive Utensil for Essential Tremor Patients",
+      "highlights": [
+        "Spearheaded the development of an assistive spoon for patients with essential tremors that could reduce tremors by up to 50%.", 
+        "Engineered an affordable solution priced at $40, ensuring accessibility for a wide range of patients.",
+        "Created comprehensive test beds and protocols to facilitate weekly testing during prototyping.",
+        "Served as technical expert, developing all mathematical models for the project, and acted as a key reference resource for team members by providing technical guidance and support."
+      ],
+      "startDate": "2023-01",
+      "endDate": "2023-05"
     }
   ]
 }

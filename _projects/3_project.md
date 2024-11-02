@@ -2,8 +2,9 @@
 layout: page
 title: Robust PID Control of Automatic Blood Presure Cuff
 description: 
-img: assets/img/7.jpg
+img: assets/img/project_3/simulink.jpg
 importance: 3
+related_publications: false
 ---
 <p>
     <span style="font-size: 24px">What: </span>
@@ -34,42 +35,61 @@ importance: 3
 </p>
 
 <br>
-<span style="font-size: 24px">Simulation Environment</span>
+<span style="font-size: 24px">Model Development</span>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_2/simple_env.jpg" title="Discrete environment" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_2/complex_env.jpg" title="Continuous environment" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_3/cuff.jpg" title="Cuff model" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    We created custom simulation environments as both a discrete grid world (left) and a more complex environment (right). 
+    Simulink model of the pressure cuff based off [1]. 
+</div>
+<div class="row justify-content-sm-center">
+    <div class="col-sm-10 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/project_3/solenoid.jpg" title="Solenoid valve model" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Simulink model of the solenoid PWM valve based off [2]. 
 </div>
 
-There were two different simulation environments for this project. The first was a simple, grid-world environment which was easily solved using value iteration. 
+The first thing to do was develop a model of the system. I created a pressure cuff model based on prior work from Drzewiecki et al. [1] and a PWM solenoid valve model based on You et al. [2].
+These two models work together to create a more faithful representation of the real-world system. 
 
-The second, more complex environment, featured continuous state and action spaces, as well as stochastic dynamics which were propagated using Euler integration. We wanted the simulation environment to more closely resemble a real-world application.
+I improved the accuracy of the system further by adding a 2nd order filter to simulate the delay of pressure equalization as the valve opens and closes.
 
-The complex environment also features randomly generated obstacles. But, the location of the goal region is fixed between generations. 
+Then I validated the model by simulating (1) the response for 0-100% duty ratio to capture steady state behavior and (2) the response for 0-100% duty ratio while intermittently releasing air to capture transient behavior.
+ 
+I performed system identification using the data generated from the validation process to approximate the system as a single transfer function. Then I could create a PID controller following the ITAE and IMC principles.
 
-
-<br>
-<span style="font-size: 24px">Navigation Performance</span>
+<span style="font-size: 24px">Testing the Controller</span>
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_2/ppo_example.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_3/nominal.jpg" title="Nominal response" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_2/ppo_example2.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_3/robustness.jpg" title="Testing robustness" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Trained PPO-based navigation system reaching the goal region (left) and testing the navigation system in an unseen testing environment (right).
+    In both cases, the controller was able to perfectly track the reference input and shows a constant rate of deflation to improve blood pressure measurment accuracy. It ensures 0 steady-state error which is important since steady state is when blood pressure is calculated based on the oscillometric method.
 </div>
 
-One of the bigget challenges for this project was implementing PPO from scratch in Julia. While there are many well-implemented libraries that we could have used, we felt that we could take our understanding of these algorithms to the next level by developing a custom implementation. 
+The controller was able to modulate the PWM valve to perfectly track the reference ramp input signal. This allows for the constant deflation of the cuff pressure which improves the accuracy and consistency of the blood pressure measurements. 
 
-The drone only has information about the location of the goal, its own position, and limited sensing capabilities close to itself. With just this information, the drone was able to generalize to a completely new testing environment and successfully reach the goal. 
+I also tested the system against variations in physical constraints related to the brachial artery to determine if the system could still track the reference signal with 0 steady state error. 
+Physiology varies widely between person to person so it was important to ensure that the controller still performs well even when conditions change. 
 
 
+<p>
+    <span style="font-size: 24px">References</span>
+    <br>
+    [1] Drzewiecki, G., Hood, R. & Apple, H. Theory of the oscillometric maximum and the systolic 
+    and diastolic detection ratios. Ann Biomed Eng 22, 88–96 (1994). 
+    https://doi.org/10.1007/BF02368225
+    <br>
+    <span class="line-space">[2]  You, Seung-Han & Cho, Young & Hahn, Jin-Oh. (2017). Model-based fault detection and 
+    isolation in automotive yaw moment control system. International Journal of Automotive 
+    Technology. 18. 405-416. 10.1007/s12239-017-0041-5
+    </span>
+</p>
