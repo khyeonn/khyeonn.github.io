@@ -8,7 +8,11 @@ related_publications: false
 ---
 <p>
     <span style="font-size: 24px">What: </span>
-        <br>This was my undergraduate capstone project. My team chose to create an assistive device for tremor patients.
+        <br><span>This was my undergraduate capstone project. My team chose to create an assistive device for tremor patients.
+        </span>
+        <br><span class="line-space">
+            I was the team's technical lead and was responsible for developing and validating all the mathematical models. 
+        </span>
 </p>
 
 <p>
