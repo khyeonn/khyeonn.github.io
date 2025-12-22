@@ -35,14 +35,6 @@ related_publications: false
 
 <br>
 <span style="font-size: 24px">The Problem</span>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_4/customer-queue.jpg" title="Customer Kiosk Screen" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    We repurposed an old Android tablet that we had laying around as the kiosk. 
-</div>
 
 Previously, all jobs were started by handing the customer a clipboard with a work request form and a pen. This led to constant disruptions as he was working since customers would come by and ask for services.
 
@@ -52,6 +44,14 @@ I proposed the idea of utilizing an electronic self-service system, taking inspi
 Another problem was that my dad was using 3 different tools/websites for a single job. He had one website for searching/ordering parts, another website for looking up vehicle information by plate or VIN, and another website for creating estimates. All of which, had extremely outdated, slow, and cluttered UIs. 
 
 I wanted to consolidate everything that he needed into one location so that he wasn't slowed down by needing to use 3 different tools. 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/project_4/customer-queue.jpg" title="Customer Kiosk Screen" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    We repurposed an old Android tablet that we had laying around as the kiosk. 
+</div>
 
 <span style="font-size: 24px">Improvements to Shop Operation</span>
 <div class="row justify-content-sm-center">
