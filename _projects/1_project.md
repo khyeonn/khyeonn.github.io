@@ -1,81 +1,82 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
-importance: 1
-category: work
-related_publications: true
+title: Assistive Utensil for Tremor Patients
+description: 
+img: assets/img/project_1/1.jpg
+importance: 4
+related_publications: false
 ---
+<p>
+    <span style="font-size: 24px">What: </span>
+        <br><span>This was my undergraduate capstone project. My team chose to create an assistive device for tremor patients.
+        </span>
+        <br><span class="line-space">
+            I was the team's technical lead and was responsible for developing and validating all the mathematical models. 
+        </span>
+</p>
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<p>
+    <span style="font-size: 24px">Why: </span>
+        <br><span>
+            Essential tremors is a neurological condition affecting more than 10 million Americans. 
+            It disrupts daily life by making simple tasks like eating and drinking difficult. It also cause social anxiety about eating and drinking in public settings due to fear of judgement.
+        </span>
+        <br><span class="line-space">
+            Current solutions are either expensive, bulky, or heavy making them inaccessible or inconvenient to use. We wanted to create a more accessible solution as an alternative to fill this gap.
+        </span>
+</p>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<p>
+    <span style="font-size: 24px">How: </span>
+        <br><span>
+            We created a passive vibration damping system using piezoelectric discs that may be tuned to target specific frequencies. 
+            This allows the device to be personalized to a person's needs, and may be adjusted as the nature of the tremor changes with age.
+        </span>
+        <br><span class="line-space">
+            The vibration damper results in up to 50% reduction in tremor magnitudes. It's also affordable at $40 in material costs which is 20% of the Liftware Steady (current market leader).
+        </span>
+</p>
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
+<br>
+<span style="font-size: 24px">Initial Design and Testing</span>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_1/3.jpg" title="Design concept" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_1/2.jpg" title="Testing apparatus" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Design concept (left) and testing apparatus (right).
 </div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+After many iterations, we settled on a design that we felt like could work. The idea is that the mechanical energy of vibrations get converted into electrical energy by the piezoelectric discs. This gets dissipated as heat which results in reduced tremors. 
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+We tested this idea on a shaker bed tuned to typical tremor frequencies and measured the system response. We saw in our tests that the piezoelectric discs and resistors reduced the magnitudes of tremors. The addition of inductors helped to further dampen the tremors. This gave us confidence to move forward with the design.
 
+<br>
+<span style="font-size: 24px">Final Design and End-User Testing</span>
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_1/1.jpg" title="Final design" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Final design concept.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+After we finalized the design, the last step was to validate everything by testing with an end-user. We reached out to our project sponsor, who has tremors, to test the device. 
+We measured the acceleration of the tip of the spoon for a regular metal spoon and our device. We found that the device helped to attenuate tremors! 
 
-{% raw %}
-
-```html
 <div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/project_1/5.jpg" title="End-user testing" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/project_1/4.jpg" title="Measured data" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
-```
+<div class="caption">
+    End-user testing (left) using both a regular spoon and our device. Measured data (right). The blue trace of the plot shows the response for a regular spoon and the orange and yellow trace shows the response for the device in two different configurations. 
+</div>
 
-{% endraw %}

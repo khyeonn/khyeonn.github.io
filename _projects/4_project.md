@@ -1,80 +1,92 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: Auto Repair Shop Queue Management System
+description: 
+img: assets/img/project_4/customer-queue.jpg
+importance: 1
+related_publications: false
 ---
+<p>
+    <span style="font-size: 24px">What: </span>
+    <br>This was a personal project built out for my dad's auto repair business. As a one-man shop, speed and efficiency were the most critical aspects of the tool. 
+    This system allows for complete control of the entire service process, from job intake to invoicing, with features like job templating to speed up estimate creation and reduce errors from manual entry.
+</p>
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<p>
+    <span style="font-size: 24px">Why: </span>
+    <br><span>
+        As we took over an shop ran by an older man, we were left with outdated systems for work requests, invoices, and workflows. 
+        This was a significant operational bottleneck and limited my dad's ability to meaningfully increase service throughput.
+    </span>
+</p>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<p>
+    <span style="font-size: 24px">How: </span>
+    <br>
+    <span>
+        I developed the system using Typescript with React as the framework of choice. I utilizied libraries like Material UI and Lucide for components and icons.
+        One of the biggest challenges was how quickly I had to develop this application. 
+    </span>
+    <br>
+    <span class="line-space">
+        To speed up the UI design process, I utilized AI tools like ChatGPT to help with UX/UI design. I will admit: I am bad with UX/UI so this was a <i>huge</i> help.
+    </span>
+</p>
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
+<br>
+<span style="font-size: 24px">The Problem</span>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_4/customer-queue.jpg" title="Customer Kiosk Screen" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    We repurposed an old Android tablet that we had laying around as the kiosk. 
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+Previously, all jobs were started by handing the customer a clipboard with a work request form and a pen. This led to constant disruptions as he was working since customers would come by and ask for services.
+
+Normally, a traditional pen and paper system works fine for most shops. But, given my dad's unique situation as a one-man shop, we needed a tool that would minimize disruptions to his work.
+I proposed the idea of utilizing an electronic self-service system, taking inspiration from the kiosks that are now seemingly everywhere.
+
+Another problem was that my dad was using 3 different tools/websites for a single job. He had one website for searching/ordering parts, another website for looking up vehicle information by plate or VIN, and another website for creating estimates. All of which, had extremely outdated, slow, and cluttered UIs. 
+
+I wanted to consolidate everything that he needed into one location so that he wasn't slowed down by needing to use 3 different tools. 
+
+<span style="font-size: 24px">Improvements to Shop Operation</span>
+<div class="row justify-content-sm-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/project_4/dashboard.jpg" title="Admin dashboard to control jobs" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    An admin dashboard with a simple UI emphasizing job visiblity and accessibility.
+</div>
+
+The improvements to shop operations were immediate and noticeable. My dad went from barely being able to service 10 cars per day to completing 20+ jobs per day as he got more used to using the application.
+
+I integrated a license plate to VIN API service which removed the need for one of his websites. I allowed estimates/invoices to be created easily by utilizing job templates, removing another one of his websites. He was now able to see a service job from beginning to end using just this one tool and one website for ordering parts. 
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/project_4/templates.jpg" title="Job templating feature" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Easily create job templates to speed up estimate/invoice creation.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
 
-{% raw %}
+The success of my software tool is evident in the number of invoices his shop was able to bill out in the first 2 months of launch. 
+We have nearly 400 invoices completed in the history (even more if you count the ones before I was able to implement a history page) and over $75,000 in revenue.
 
-```html
+All this as a <strong><i>one-man shop</i></strong>. My dad being a great mechanic is the major factor, but all this would not have been possible if he was constantly slowed down by outdated workflows and inefficient tools.
+
 <div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/project_4/invoice-history.jpg" title="Invoice history" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
-```
-
-{% endraw %}
+<div class="caption">
+    Current invoicing history after ~2 months since software launch, not including those invoices completed before I implemented this history feature.
+</div>
