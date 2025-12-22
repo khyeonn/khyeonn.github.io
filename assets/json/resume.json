@@ -1,200 +1,169 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Max Kim",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+    "email": "mkhyeon7@gmail.com",
+    "url": "https://www.linkedin.com/in/khyeon/"
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "name": "Applied Control Engineering, Inc.",
+      "position": "Control Engineer",
+      "location": "Baltimore, MD",
+      "startDate": "2025-01",
+      "endDate": "",
+      "highlights": [
+        "Develop and integrate control and automation software for industrial systems, emphasizing reliability, safety, and deterministic behavior",
+        "Collaborate across mechanical, electrical, and software disciplines to translate system requirements into deployable control systems",
+        "Led delivery of a $134K+ industrial controls project after teammate departure, assuming sole responsibility for both PLC (control logic) and HMI (operator interface) development; successfully implemented, tested, and deployed a fully integrated system meeting all customer requirements"
+      ]
+    },
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "Laboratory for Control and Information Systems",
+      "position": "Research Assistant",
+      "location": "College Park, MD",
+      "url": "https://enme.umd.edu/research/laboratory-control-and-information-systems",
+      "startDate": "2022-04",
+      "endDate": "2024-12",
+      "summary": "",
+      "highlights": [
+        "Designed and implemented control-oriented digital twin models for abdominal aortic aneurysm (AAA) assessment using MATLAB and Python, supporting simulation, estimation, and system validation",
+        "Curated and processed a 600+ patient dataset, filtering to N<80 matched cohorts based on comorbidities, physical factors, and signal quality; validated model performance achieving 50%-68% sensitivity at 75% specificity (comparable to trained experts)",
+        "First author on 1 peer-reviewed publication and co-author on 1 additional manuscript in progress, demonstrating end-to-end ownership of model development, validation, and quantitative analysis"
+      ]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "institution": "University of Maryland - College Park",
+      "location": "College Park, MD",
+      "studyType": "M.S. in Mechanical Engineering",
+      "startDate": "2023-08-29",
+      "endDate": "2024-12-20",
+      "courses": [
+        "GPA 3.77/4.0",
+        "Advanced Systems Control", 
+        "Applied Machine Learning", 
+        "Decision Making Under Uncertainty", 
+        "Optimal Estimation of Dynamic Systems"
+      ]
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "institution": "University of Maryland - College Park",
+      "location": "College Park, MD",
+      "studyType": "B.S. in Mechanical Engineering",
+      "startDate": "2019-08-29",
+      "endDate": "2023-05-23",
+      "courses": [
+        "GPA 3.70/4.0",
+        "Dean's list all semesters",
+        "Clark Legacy scholarship recipient"
+      ]
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
+      "name": "Programming",
       "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "keywords": [
+       "C and C++",
+       "Python", 
+       "MATLAB/Simulink", 
+       "TypeScript"
+      ]
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Systems",
+      "icon": "fa-solid fa-gears",
+      "keywords": [
+        "Linux", 
+        "Embedded Systems",
+        "Real-Time Control", 
+        "State Estimation", 
+        "Sensor Fusion"
+      ]
+    },
+    {
+      "name": "Tools",
+      "icon": "fa-solid fa-screwdriver-wrench",
+      "keywords": [
+        "Git", 
+        "CMake", 
+        "Docker", 
+        "Bash", 
+        "Microcontrollers"
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "name": "Transmission Line Model as a Digital Twin for Abdominal Aortic Aneurysm Patients",
+      "publisher": "npj Digital Medicine",
+      "releaseDate": "2024-10-25",
+      "url": "https://doi.org/10.1038/s41746-024-01303-5",
+      "summary": "We investigated the potential of the transmission line model as a digital twin of aneurysmal aorta by comparatively analyzing how a uniform lossless tube-load model were fitted to the carotid and femoral artery tonometry waveforms from abdominal aortic aneurysm patients vs. their matched controls."
+    },
+    {
+      "name": "Tube-Load Model as a Digital Twin for Abdominal Aortic Aneurysm Patients (poster)",
+      "publisher": "IEEE International Engineering in Medicine and Biology Society Conference",
+      "releaseDate": "2024-07-18",
+      "url": "https://github.com/khyeonn/khyeonn.github.io/blob/main/assets/pdf/AAA-DK-EMBC2024.pdf",
+      "summary": "To investigate the feasibility of tube-load models as a digital twin to detect and monitor abdominal aortic aneurysms, helping to improve accessibility to screening and surveillance."
+    },
+    {
+      "name": "Tube-Load Modeling of Aorta with Abdominal Aortic Aneurysm (poster)",
+      "publisher": "IEEE International Conference on Biomedical and Health Informatics",
+      "releaseDate": "2023-10-17",
+      "url": "https://github.com/khyeonn/khyeonn.github.io/blob/main/assets/pdf/AAA-DK-BHI2023.pdf",
+      "summary": "To investigate the feasibility of tube-load models in tracking the progression of abdominal aortic aneurysm in a patient pre- and post-endovascular repair surgery."
     }
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Custom UAV Flight Software",
+      "highlights": [
+        "Developing a fully custom UAV using off-the-shelf hardware and a custom flight control stack on RP2040 (Pi Pico 2)",
+        "Implemented a multiplicative extended Kalman filter (MEKF) fusing 9-axis IMU data (accelerometer, gyroscope, magnetometer) for real-time attitude estimation",
+        "Ongoing work focused on embedded real-time control, sensor fusion, and flight-critical software reliability"
+      ]
+    },
+    {
+      "name": "Auto Repair Shop Queue Management System",
+      "highlights": [
+        "Built and deployed a production software system for local auto repair shop supporting 350+ jobs in the first 2 months, managing 20+ customers daily",
+        "Increased daily service throughput from ~10 vehicles/day to 20+ vehicles/day by redesigning job intake, invoicing, and workflow visibility (owner-estimated)", 
+        "Executed daily live deployments while the shop remained operational using CI/CD with rollback capability; manually tested core workflows for hours on real and dummy jobs to prevent downtime, resolving a major outage overnight to ensure uninterrupted next-day operations "
+      ]
+    },
+    {
+      "name": "UAV Navigation Using Reinforcement Learning",
+      "highlights": [
+        "Built a custom drone simulation environment with stochastic linear dynamics in continuous state and action space featuring 10 randomized obstacles.", 
+        "Designed a navigation algorithm that could outperform a heuristic-based control algorithm in unseen environments by 27% in terms of time-steps taken."
+      ],
+      "startDate": "2024-03",
+      "endDate": "2024-05"
+    },
+    {
+      "name": "Robust PID Control of Automatic Blood Pressure Cuff",
+      "highlights": [
+        "Performed system identification on known pressure cuff and PWM solenoid valve models to approximate a transfer function of the system.", 
+        "Designed a PID controller following ITAE and IMC principles to achieve 0 steady-state error.",
+        "Validated robustness by simulating system response to changes in physical constraints."
+      ],
+      "startDate": "2023-11",
+      "endDate": "2023-12"
+    },
+    {
+      "name": "Assistive Utensil for Essential Tremor Patients",
+      "highlights": [
+        "Spearheaded the development of an assistive spoon for patients with essential tremors that could reduce tremors by up to 50%.", 
+        "Engineered an affordable solution priced at $40, ensuring accessibility for a wide range of patients.",
+        "Created comprehensive test beds and protocols to facilitate weekly testing during prototyping.",
+        "Served as technical expert, developing all mathematical models for the project, and acted as a key reference resource for team members by providing technical guidance and support."
+      ],
+      "startDate": "2023-01",
+      "endDate": "2023-05"
     }
   ]
 }
