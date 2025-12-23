@@ -14,7 +14,7 @@
       "endDate": "",
       "highlights": [
         "Develop and integrate control and automation software for industrial systems, emphasizing reliability, safety, and deterministic behavior",
-        "Collaborate across mechanical, electrical, and software disciplines to translate system requirements into deployable control systems",
+        "Debug and deploy PLC-based control systems communicating over Ethernet/IP and Modbus TCP in live industrial environments",
         "Led delivery of a $134K+ industrial controls project after teammate departure, assuming sole responsibility for both PLC (control logic) and HMI (operator interface) development; successfully implemented, tested, and deployed a fully integrated system meeting all customer requirements"
       ]
     },
@@ -124,6 +124,7 @@
       "highlights": [
         "Developing a fully custom UAV using off-the-shelf hardware and a custom flight control stack on RP2040 (Pi Pico 2)",
         "Implemented a multiplicative extended Kalman filter (MEKF) fusing 9-axis IMU data (accelerometer, gyroscope, magnetometer) for real-time attitude estimation",
+        "Integrated embedded software with onboard sensors using UART and I2C, addressing timing, synchronization, and noise-related issues",
         "Ongoing work focused on embedded real-time control, sensor fusion, and flight-critical software reliability"
       ],
       "startDate": "2025-08",
