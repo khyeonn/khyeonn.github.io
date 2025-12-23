@@ -60,7 +60,7 @@ I wanted to consolidate everything that he needed into one location so that he w
     </div>
 </div>
 <div class="caption">
-    An admin dashboard with a simple UI emphasizing job visiblity and accessibility.
+    An admin dashboard with a simple UI emphasizing job visiblity and accessibility. Customer information has been redacted.
 </div>
 
 The improvements to shop operations were immediate and noticeable. My dad went from barely being able to service 10 cars per day to completing 20+ jobs per day as he got more used to using the application.
@@ -73,7 +73,7 @@ I integrated a license plate to VIN API service which removed the need for one o
     </div>
 </div>
 <div class="caption">
-    Easily create job templates to speed up estimate/invoice creation.
+    Easily create job templates to speed up estimate/invoice creation. Customer information has been redacted.
 </div>
 
 

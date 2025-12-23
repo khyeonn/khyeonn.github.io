@@ -125,15 +125,17 @@
         "Developing a fully custom UAV using off-the-shelf hardware and a custom flight control stack on RP2040 (Pi Pico 2)",
         "Implemented a multiplicative extended Kalman filter (MEKF) fusing 9-axis IMU data (accelerometer, gyroscope, magnetometer) for real-time attitude estimation",
         "Ongoing work focused on embedded real-time control, sensor fusion, and flight-critical software reliability"
-      ]
+      ],
+      "startDate": "2025-08"
     },
     {
       "name": "Auto Repair Shop Queue Management System",
       "highlights": [
-        "Built and deployed a production software system for local auto repair shop supporting 350+ jobs in the first 2 months, managing 20+ customers daily",
+        "Built and deployed a production software system for local auto repair shop supporting 400+ jobs and $75,000+ revenue in the first 2 months, managing 20+ customers daily",
         "Increased daily service throughput from ~10 vehicles/day to 20+ vehicles/day by redesigning job intake, invoicing, and workflow visibility (owner-estimated)", 
         "Executed daily live deployments while the shop remained operational using CI/CD with rollback capability; manually tested core workflows for hours on real and dummy jobs to prevent downtime, resolving a major outage overnight to ensure uninterrupted next-day operations "
-      ]
+      ],
+      "startDate": "2025-10"
     },
     {
       "name": "UAV Navigation Using Reinforcement Learning",

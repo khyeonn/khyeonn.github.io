@@ -2,18 +2,18 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Max Kim
     - name: Date of Birth
-      value: 14th March 1879
+      value: 1st July 2000
     - name: Languages
-      value: English, German
+      value: English
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: M.S.
+      institution: University of Maryland, College Park, Maryland
+      year: 2025
       description:
         - Description 1.
         - Description 2.
@@ -21,9 +21,9 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+    - title: B.S.
+      institution: University of Maryland, College Park, Maryland
+      year: 2023
       description:
         - Description 1.
         - Description 2.
