@@ -29,7 +29,7 @@ related_publications: false
     </span>
     <br>
     <span class="line-space">
-        To speed up the UI design process, I utilized AI tools like ChatGPT to help with UX/UI design. I will admit: I am bad with UX/UI so this was a <i>huge</i> help.
+        To speed up the UI design process, I utilized AI tools like ChatGPT to help with the UI layout. I've always been bad at art, so this was a <i>huge</i> help.
     </span>
 </p>
 
@@ -73,14 +73,16 @@ I integrated a license plate to VIN API service which removed the need for one o
     </div>
 </div>
 <div class="caption">
-    Easily create job templates to speed up estimate/invoice creation. Customer information has been redacted.
+    Easily create job templates to speed up estimate/invoice creation.
 </div>
 
 
 The success of my software tool is evident in the number of invoices his shop was able to bill out in the first 2 months of launch. 
-We have nearly 400 invoices completed in the history (even more if you count the ones before I was able to implement a history page) and over $75,000 in revenue.
+We have 400+ invoices completed in the history (even more if you count the ones before I was able to implement a history page) and over $75,000 in total gross revenue.
 
 All this as a <strong><i>one-man shop</i></strong>. My dad being a great mechanic is the major factor, but all this would not have been possible if he was constantly slowed down by outdated workflows and inefficient tools.
+
+I currently maintain the application, implementing new features that my dad requests (more slowly now). The next planned feature is an Analytics dashboard to easily view shop performance metrics.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
@@ -88,5 +90,5 @@ All this as a <strong><i>one-man shop</i></strong>. My dad being a great mechani
     </div>
 </div>
 <div class="caption">
-    Current invoicing history after ~2 months since software launch, not including those invoices completed before I implemented this history feature.
+    Current invoicing history after ~2 months since software launch, not including those invoices completed before I implemented this history feature. Customer information has been redacted.
 </div>
