@@ -126,7 +126,8 @@
         "Implemented a multiplicative extended Kalman filter (MEKF) fusing 9-axis IMU data (accelerometer, gyroscope, magnetometer) for real-time attitude estimation",
         "Ongoing work focused on embedded real-time control, sensor fusion, and flight-critical software reliability"
       ],
-      "startDate": "2025-08"
+      "startDate": "2025-08",
+      "endDate": ""
     },
     {
       "name": "Auto Repair Shop Queue Management System",
@@ -135,7 +136,8 @@
         "Increased daily service throughput from ~10 vehicles/day to 20+ vehicles/day by redesigning job intake, invoicing, and workflow visibility (owner-estimated)", 
         "Executed daily live deployments while the shop remained operational using CI/CD with rollback capability; manually tested core workflows for hours on real and dummy jobs to prevent downtime, resolving a major outage overnight to ensure uninterrupted next-day operations "
       ],
-      "startDate": "2025-10"
+      "startDate": "2025-10",
+      "endDate": ""
     },
     {
       "name": "UAV Navigation Using Reinforcement Learning",
