@@ -55,7 +55,7 @@ I wanted to consolidate everything that he needed into one location so that he w
 
 <span style="font-size: 24px">Improvements to Shop Operation</span>
 <div class="row justify-content-sm-center">
-    <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col-sm-12 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/project_4/dashboard.jpg" title="Admin dashboard to control jobs" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -68,7 +68,7 @@ The improvements to shop operations were immediate and noticeable. My dad went f
 I integrated a license plate to VIN API service which removed the need for one of his websites. I allowed estimates/invoices to be created easily by utilizing job templates, removing another one of his websites. He was now able to see a service job from beginning to end using just this one tool and one website for ordering parts. 
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col-sm-12 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/project_4/templates.jpg" title="Job templating feature" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -85,7 +85,7 @@ All this as a <strong><i>one-man shop</i></strong>. My dad being a great mechani
 I currently maintain the application, implementing new features that my dad requests (more slowly now). The next planned feature is an Analytics dashboard to easily view shop performance metrics.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col-sm-12 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/project_4/invoice-history.jpg" title="Invoice history" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
