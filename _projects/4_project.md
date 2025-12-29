@@ -78,7 +78,7 @@ I integrated a license plate to VIN API service which removed the need for one o
 
 
 The success of my software tool is evident in the number of invoices his shop was able to bill out in the first 2 months of launch. 
-We have 400+ invoices completed in the history (even more if you count the ones before I was able to implement a history page) and over $75,000 in total gross revenue.
+We have 480+ invoices completed in the history (even more if you count the ones before I was able to implement a history page) and over $98,000 in total gross revenue.
 
 All this as a <strong><i>one-man shop</i></strong>. My dad being a great mechanic is the major factor, but all this would not have been possible if he was constantly slowed down by outdated workflows and inefficient tools.
 

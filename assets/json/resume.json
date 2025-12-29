@@ -133,7 +133,7 @@
     {
       "name": "Auto Repair Shop Queue Management System",
       "highlights": [
-        "Built and deployed a production software system for local auto repair shop supporting 400+ jobs and $75,000+ revenue in the first 2 months, managing 20+ customers daily",
+        "Built and deployed a production software system for local auto repair shop supporting 480+ jobs and $98,000+ revenue in the first 2 months, managing 20+ customers daily",
         "Increased daily service throughput from ~10 vehicles/day to 20+ vehicles/day by redesigning job intake, invoicing, and workflow visibility (owner-estimated)", 
         "Executed daily live deployments while the shop remained operational using CI/CD with rollback capability; manually tested core workflows for hours on real and dummy jobs to prevent downtime, resolving a major outage overnight to ensure uninterrupted next-day operations "
       ],
