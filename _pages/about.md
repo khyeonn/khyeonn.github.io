@@ -40,7 +40,7 @@ Outside of work, I spend much of my time building projects to deepen my understa
 
 When I’m not debugging code or fixing broken hardware, I enjoy cooking and exploring new restaurants around the city. I’m a big foodie and love experimenting with new recipes and discovering hidden gems.
 
-If you're interested in what I'm currently working on, you can follow along on my **blog**!
+If you're interested in what I'm currently working on, you can follow along on my [blog](/blog/)!
 
 
 

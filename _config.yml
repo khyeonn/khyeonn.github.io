@@ -85,8 +85,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: The Control Loop # blog_name will be displayed in your blog page
-blog_description: A place for me to share my engineering experiences, projects, and passions
+blog_name: Works in My Head # blog_name will be displayed in your blog page
+blog_description: Projects, experiments, and ideas that worked perfectly.. in my head
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
