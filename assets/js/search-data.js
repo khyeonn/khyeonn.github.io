@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-the-open-drone-platform",
+        },{id: "post-validating-simulations",
+        
+          title: "Validating Simulations",
+        
+        description: "Validating a custom 6-DOF simulator against the NESC Atmospheric Check Case 1.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/odrone-2/";
+          
+        },
+      },{id: "post-the-open-drone-platform",
         
           title: "The Open Drone Platform",
         
