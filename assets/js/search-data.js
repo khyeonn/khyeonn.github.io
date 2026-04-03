@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-validating-simulations",
+        },{id: "post-validating-simulations-nesc-check-cases-2-amp-3",
+        
+          title: "Validating Simulations (NESC Check Cases 2 &amp; 3)",
+        
+        description: "Validating rotational dynamics and inertial coupling using NESC Atmospheric Check Cases 2 and 3.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/odrone-3/";
+          
+        },
+      },{id: "post-validating-simulations",
         
           title: "Validating Simulations",
         
