@@ -11,7 +11,7 @@
       "position": "Control Engineer",
       "location": "Baltimore, MD",
       "startDate": "2025-01",
-      "endDate": "",
+      "endDate": "Present",
       "highlights": [
         "Designed and implemented closed-loop feedback control logic governing pumps, valves, and industrial actuators, ensuring stable operation and deterministic control behavior in real-world systems.",
         "Tested and validated distributed control logic integrating Ethernet/IP and Modbus TCP communication layers in live industrial environments, emphasizing deterministic execution and fault isolation",
@@ -122,12 +122,12 @@
   ],
   "projects": [
     {
-      "name": "Embedded UAV Flight Control Stack",
+      "name": "Open-Source Drone Platform",
       "highlights": [
         "Architecting a modular UAV flight control stack on the RP2350 (Raspberry Pi Pico 2) in modern C++ with hardware abstraction",
         "Developed a multiplicative extended Kalman filter (MEKF) for real-time attitude estimation, fusing 9-axis IMU measurements using a quaternion state representation",
         "Built deterministic real-time sensor acquisition and control loops for embedded flight software",
-        "Developing a physics-based 6DOF simulation incorporating vehicle dynamics, actuator dynamics, and disturbance modeling to enable controller tuning, trajectory tracking validation, and Sim2Real testing prior to hardware deployment"
+        "Developing a physics-based 6DOF simulation incorporating vehicle dynamics, actuator dynamics, and disturbance modeling to enable controller tuning, trajectory tracking validation, and SIL and HIL testing"
       ],
       "startDate": "2025-08",
       "endDate": ""
